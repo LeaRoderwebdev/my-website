@@ -1,0 +1,57 @@
+.card-img-box{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-auto-rows: auto;
+grid-gap: 1rem;
+flex-wrap: wrap;
+margin-bottom: 50px;
+}
+
+.card-img {
+  height: 200px;
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  display: flex;
+  align-content: center;
+  margin-top: 50px;
+  padding: 0.5rem;
+  justify-content: left;
+  transition: 1s;
+}
+
+.card-img:hover {
+  border-radius: 10px;
+  justify-content: right;
+}
+
+.card-img h3 {
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 25px;
+  color: white;
+  transition: 0.7s;
+  align-self: center;
+}
+
+/** IMAGE FOR PAGE INDEX **/
+
+#card-adoption{
+  background-image: url(../images/JF6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+#card-sponsor{
+  background-image: url(../images/JF7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+#card-help{
+  background-image: url(../images/JF8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}

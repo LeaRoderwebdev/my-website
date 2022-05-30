@@ -1,0 +1,26 @@
+.jelly-cards{
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  column-gap: 60px;
+}
+
+.card-jelly img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: 30px;
+  margin-right: 40px;
+}
+.card-jelly {
+  overflow: hidden;
+  height: 200px;
+  background: white;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+.card-jelly h3 {
+  font-size: 24px;
+}

@@ -1,0 +1,17 @@
+a{
+  text-decoration: none;
+}
+
+#btn-trans{
+  border: solid;
+  border-color: white;
+  text-decoration: none;
+  padding: 15px 40px;
+  color: white;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+#btn-trans:hover {
+  background-color: white;
+  color:black;
+}
